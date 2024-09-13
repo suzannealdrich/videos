@@ -1,4 +1,4 @@
-import jwt_decode, { JwtPayload } from "jwt-decode";
+import { jwtDecode,  JwtPayload } from "jwt-decode";
 import { base64url } from "rfc4648";
 import { parse } from "worktop/cookie";
 
